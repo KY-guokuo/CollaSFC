@@ -1,0 +1,172 @@
+{
+    "node_status": {
+        "k8s-node1": {
+            "status": 1,
+            "ip": "192.168.199.104"
+        },
+        "k8s-node2": {
+            "status": 1,
+            "ip": "192.168.199.106"
+        },
+        "k8s-node3": {
+            "status": 1,
+            "ip": "192.168.199.108"
+        },
+        "k8s-node4": {
+            "status": 1,
+            "ip": "192.168.199.110"
+        },
+        "k8s-node5": {
+            "status": 1,
+            "ip": "192.168.199.112"
+        },
+        "k8s-node6": {
+            "status": 1,
+            "ip": "192.168.199.114"
+        }
+    },
+    "pod_status": {
+        "vnf1": {
+            "status": 1,
+            "node_name": "k8s-node1"
+        },
+        "vnf2": {
+            "status": 1,
+            "node_name": "k8s-node1"
+        },
+        "vnf3": {
+            "status": 1,
+            "node_name": "k8s-node2"
+        },
+        "vnf4": {
+            "status": 1,
+            "node_name": "k8s-node2"
+        },
+        "vnf5": {
+            "status": 1,
+            "node_name": "k8s-node3"
+        },
+        "vnf6": {
+            "status": 1,
+            "node_name": "k8s-node3"
+        },
+        "vnf7": {
+            "status": 1,
+            "node_name": "k8s-node5"
+        },
+        "vnf8": {
+            "status": 1,
+            "node_name": "k8s-node5"
+        },
+        "vnf9": {
+            "status": 1,
+            "node_name": "k8s-node5"
+        },
+        "vnf10": {
+            "status": 1,
+            "node_name": "k8s-node6"
+        },
+        "vnf11": {
+            "status": 1,
+            "node_name": "k8s-node4"
+        }
+    },
+    "node_metrics": {
+        "k8s-node1": {
+            "cpu": 4,
+            "memory": 15
+        },
+        "k8s-node2": {
+            "cpu": 1,
+            "memory": 19
+        },
+        "k8s-node3": {
+            "cpu": 1,
+            "memory": 14
+        },
+        "k8s-node4": {
+            "cpu": 1,
+            "memory": 10
+        },
+        "k8s-node5": {
+            "cpu": 1,
+            "memory": 9
+        },
+        "k8s-node6": {
+            "cpu": 1,
+            "memory": 21
+        }
+    },
+    "pod_metrics": {
+        "vnf1": {
+            "cpu": 0,
+            "memory": 0
+        },
+        "vnf10": {
+            "cpu": 0,
+            "memory": 0
+        },
+        "vnf11": {
+            "cpu": 0,
+            "memory": 0
+        },
+        "vnf2": {
+            "cpu": 0,
+            "memory": 0
+        },
+        "vnf3": {
+            "cpu": 0,
+            "memory": 0
+        },
+        "vnf4": {
+            "cpu": 0,
+            "memory": 0
+        },
+        "vnf5": {
+            "cpu": 0,
+            "memory": 0
+        },
+        "vnf6": {
+            "cpu": 0,
+            "memory": 0
+        },
+        "vnf7": {
+            "cpu": 0,
+            "memory": 0
+        },
+        "vnf8": {
+            "cpu": 0,
+            "memory": 0
+        },
+        "vnf9": {
+            "cpu": 0,
+            "memory": 0
+        }
+    },
+    "vlink_status": {
+        "k8s-node1": {
+            "ip": "192.168.199.104",
+            "veth_status": 1
+        },
+        "k8s-node2": {
+            "ip": "192.168.199.106",
+            "veth_status": 1
+        },
+        "k8s-node3": {
+            "ip": "192.168.199.108",
+            "veth_status": 1
+        },
+        "k8s-node4": {
+            "ip": "192.168.199.110",
+            "veth_status": 1
+        },
+        "k8s-node5": {
+            "ip": "192.168.199.112",
+            "veth_status": 1
+        },
+        "k8s-node6": {
+            "ip": "192.168.199.114",
+            "veth_status": 1
+        }
+    }
+}
